@@ -1,6 +1,6 @@
 /* Importando fonte externa*/
 
-@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Rubik+Doodle+Shadow&display=swap');
 
 * {
     margin: 0px;
@@ -25,6 +25,8 @@ main{
 .mainTittle{
     padding: 1%;
     font-size: 64px;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    color: #1a1a1a;
 }
 
 .pokedexImg{
@@ -97,4 +99,23 @@ main{
 .button:active{
     box-shadow: inset -4px 4px 0 #1a1a1a;
     font-size: 0.9rem;
+}
+
+.showInfo{
+    top: 15%;
+    width: 30%;
+    padding: 2%;
+}
+
+.showInfo:active{
+    width: 20%;
+}
+
+.pokemonInfo{
+    display: none;
+}
+
+.paper-cover{
+    width: 55%;
+    height: 45%;
 }

@@ -1,12 +1,14 @@
 const pokemonName = document.querySelector('.pokemonName');
 const pokemonID = document.querySelector('.pokemonID');
 const pokemonIMG = document.querySelector('.pokemonIMG');
+const pokemonInfo = document.querySelector('.pokemonInfo');
 
 
 const form = document.querySelector('.form');
 const input = document.querySelector('.inputSearch');
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-nxt');
+const buttonInfo = document.querySelector('.showInfo');
 
 let searchPokemon = 1;
 
@@ -65,10 +67,9 @@ buttonPrev.addEventListener('click', () => {
 })
 
 buttonNext.addEventListener('click', () => {
- 
-        searchPokemon++;
-        renderPokemon(searchPokemon);
+
+    searchPokemon++;
+    renderPokemon(searchPokemon);
 })
 
 renderPokemon(searchPokemon)
-
